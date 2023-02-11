@@ -1,0 +1,23 @@
+html{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+body{
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: #323232;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+#janela{
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    border: #fff 1px solid;
+    background-color: aquamarine;
+}

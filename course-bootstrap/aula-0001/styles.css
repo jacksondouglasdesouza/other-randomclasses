@@ -1,0 +1,18 @@
+.m-bottom{
+    margin-bottom: 500px;
+}
+
+.figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.square{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+}

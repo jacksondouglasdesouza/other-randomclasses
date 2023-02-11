@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #323232;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+img{
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+#janela{
+    width: 200px;
+    height: 1000px;
+    background-color: aquamarine;
+    border: azure 5px solid;
+}

@@ -1,0 +1,82 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: #323232;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 550;
+}
+ */
+
+body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: fixed;
+    width: 60px;
+    padding: 10px;
+    top: 10px;
+    left: 10px;
+    box-shadow: 0 0 2px rgba(58, 57, 57, 0.329);
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    list-style-type: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+    width: 80px;
+    height: 80px;
+}
+
+
+nav li:first-child{
+    background-image: url('../../imgs/home.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav li:nth-child(2){
+    background-image: url('../../imgs/call-history.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav li:nth-child(3){
+    background-image: url('../../imgs/envelope\ \(1\).svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#primeira{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+#segunda{
+    width: 100%;
+    background-color: blueviolet;
+}
+
+#terceira{
+    width: 100%;
+    background-color: rgb(226, 214, 43);
+}
