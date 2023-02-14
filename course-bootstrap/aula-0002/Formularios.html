@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- INDEX CSS -->
+        <link rel="stylesheet" href="./formularios.css" />
+        <!-- BOOTSTRAP -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <title>Aula 002 | Bootstrap | Forms</title>
+    </head>
+    <body>
+        <header class="w-100 h-100">
+            <div class="m-auto p-3 w-100 h-100">
+                <h1 class="text-center text-primary p-5">
+                    Aula de Bootstrap - Formulários
+                </h1>
+            </div>
+        </header>
+        <!-- FORM 001 - LOGIN AND PASSWORD-->
+        <div
+            class="d-flex flex-column justify-content-center align-items-center w-75 m-auto bg-light"
+        >
+            <form action="#" method="post" class="w-75 m-auto p-5">
+                <div class="mb-3">
+                    <label for="input-email" class="form-label"
+                        >Insira seu e-mail:</label
+                    >
+                    <input type="email" class="form-control" id="input-email" />
+                </div>
+                <div class="mb-3">
+                    <label for="input-password" class="form-label"
+                        >Insira sua senha:</label
+                    >
+                    <input
+                        type="password"
+                        id="input-password"
+                        class="form-control"
+                    />
+                </div>
+                <div class="mb-3">
+                    <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="input-conect"
+                    />
+                    <label for="input-conect" class="form-label ms-1"
+                        >Manter conectado?</label
+                    >
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary w-100">
+                        Entrar
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- -->
+        <div class="my-5">
+            <hr class="w-25 text-center text-primary m-auto" />
+        </div>
+        <!-- -->
+
+        <!-- FORM 002 - TEXTAREA-->
+        <div
+            class="d-flex flex-column justify-content-center align-items-center w-75 m-auto bg-light"
+        >
+            <form action="#" method="post" class="w-75 m-auto p-5">
+                <div class="mb-3">
+                    <label for="text-area" class="form-label"
+                        >Deixe o seu comentário</label
+                    >
+                    <textarea
+                        name="text-area"
+                        id="text-area"
+                        cols="90"
+                        rows="5"
+                        class="form-control"
+                    ></textarea>
+                </div>
+            </form>
+        </div>
+
+        <!-- -->
+        <div class="my-5">
+            <hr class="w-25 text-center text-primary m-auto" />
+        </div>
+        <!-- -->
+
+        <!-- FORM 003 - SELECTED-->
+        <div
+            class="d-flex flex-column justify-content-center align-items-center w-75 m-auto bg-light"
+        >
+            <form action="#" method="post" class="w-75 m-auto p-5">
+                <select name="#" id="#" class="form-select">
+                    <option selected>Escolha uma das opções</option>
+                    <option value="">Opções 000...xyz</option>
+                    <option value="">Opções 000...xyz</option>
+                    <option value="">Opções 000...xyz</option>
+                    <option value="">Opções 000...xyz</option>
+                    <option value="">Opções 000...xyz</option>
+                    <option value="">Opções 000...xyz</option>
+                    <option value="">Opções 000...xyz</option>
+                    <option value="">Opções 000...xyz</option>
+                    <option value="">Opções 000...xyz</option>
+                </select>
+            </form>
+        </div>
+
+        <!-- -->
+        <div class="my-5">
+            <hr class="w-25 text-center text-primary m-auto" />
+        </div>
+        <!-- -->
+
+        <!-- FORM 004 - RADIO BUTTON -->
+        <div
+            class="d-flex flex-column justify-content-center align-items-center w-75 m-auto bg-light"
+        >
+            <form action="#" method="post" class="w-75 m-auto p-5">
+                <div class="mb-3 form-check">
+                    <input
+                        type="radio"
+                        name="valor-x"
+                        id="valor-x1"
+                        class="form-check-input"
+                        checked
+                    />
+                    <label for="valor-x1" class="form-check-label"
+                        >Opção Xyz</label
+                    >
+                </div>
+                <div class="mb-3 form-check">
+                    <input
+                        type="radio"
+                        name="valor-x"
+                        id="valor-x-2"
+                        class="form-check-input"
+                    />
+                    <label for="valor-x-2" class="form-check-label"
+                        >Opção Xyz</label
+                    >
+                </div>
+                <div class="mb-3 form-check">
+                    <input
+                        type="radio"
+                        name="valor-x"
+                        id="valor-x-3"
+                        class="form-check-input"
+                        disabled
+                    />
+                    <label for="valor-x-3" class="form-check-label"
+                        >Opção Xyz</label
+                    >
+                </div>
+                <div class="mb-3 form-check">
+                    <input
+                        type="radio"
+                        name="valor-x"
+                        id="valor-x-4"
+                        class="form-check-input"
+                    />
+                    <label for="valor-x-4" class="form-check-label"
+                        >Opção Xyz</label
+                    >
+                </div>
+            </form>
+        </div>
+
+        <!-- -->
+        <div class="my-5">
+            <hr class="w-25 text-center text-primary m-auto" />
+        </div>
+        <!-- -->
+
+        <!-- FORM 005 - FORM FLOATING -->
+        <div
+            class="d-flex flex-column justify-content-center align-items-center w-75 m-auto bg-light"
+        >
+            <form action="#" method="post" class="w-75 m-auto p-5">
+                <div class="mb-3 form-floating">
+                    <input
+                        type="email"
+                        class="form-control"
+                        id="email-floating"
+                        placeholder="exemplo@email.com"
+                    />
+                    <label for="email-floating">Insira o seu e-mail</label>
+                </div>
+                <!-- -->
+                <div class="mb-3 form-floating">
+                    <input
+                        type="password"
+                        class="form-control"
+                        id="password-floating"
+                    />
+                    <label for="password-floating">Insira sua password</label>
+                </div>
+            </form>
+        </div>
+
+        <!-- -->
+        <div class="my-5">
+            <hr class="w-25 text-center text-primary m-auto" />
+        </div>
+        <!-- -->
+
+        <!-- FORM 006 - FORM INPUT GROUP -->
+        <div
+            class="d-flex flex-column justify-content-center align-items-center w-75 m-auto bg-light"
+        >
+            <form action="#" method="post" class="w-50 m-auto p-5">
+                <div class="mb-3 input-group">
+                    <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Buscar cep"
+                    />
+                    <button class="btn btn-outline-primary">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- -->
+        <div class="my-5">
+            <hr class="w-25 text-center text-primary m-auto" />
+        </div>
+        <!-- -->
+    </body>
+</html>
