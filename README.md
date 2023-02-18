@@ -2,6 +2,7 @@
 
 | Project | Deployment |
 | ------ | ------ |
+| 2 - Practical project - Kenzie Academy - A little about me | http://bit.ly/3YIKlao |
 | 1 - Practical project - The ducklings of mommy Floc | http://bit.ly/3ImuQPK |
  ## Meus contatos
   - https://bit.ly/m/jacksondouglasdesouza
@@ -17,8 +18,21 @@
  </div>
  
  #
- 
+
  ## Page Photo
+
+| Project | Deployment |
+| ------ | ------ |
+| 2 - Practical project - Kenzie Academy - A little about me | http://bit.ly/3YIKlao |
+
+ <div>
+  <img align="center" alt="Practical project - Kenzie Academy - A little about me, projeto de Jackson douglas de souza" height="auto" width="100%"
+  src="https://user-images.githubusercontent.com/76602433/219879812-fa879f50-5201-41d1-b917-85dec7cb22f9.png">
+ </div><br />
+
+
+ ## Page Photo
+
 
 | Project | Deployment |
 | ------ | ------ |
