@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f9e5e5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    
+    background-color: #f5e9b3;
+}
+
+.nuemero-01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#7ff3d0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.nuemero-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f5e76c;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.nuemero-03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#eea34d;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.nuemero-04{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f15353;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.nuemero-05{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#7999f0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.nuemero-06{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#c5f768;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.nuemero-07{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3e89a7;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.nuemero-08{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#927c41;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.nuemero-09{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#7e671e;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #FFF;
+}
+
+.foo{
+    
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 200px;
+    background-color: #7e671e;
+}
+
+.foo p{
+    color: #FFF;
+    font-size: 1.1rem;
+}
