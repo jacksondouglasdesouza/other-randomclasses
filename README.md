@@ -9,9 +9,10 @@
  
 ## Used technologies.
 <div>
-  <img align="center" alt="Jackson Douglas de Souza - bootstrap" height="35" width="45" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg">
+  <img align="center" alt="Jackson Douglas de Souza-Javascrip" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Jackson Douglas de Souza - HTML5" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Jackson Douglas de Souza - CSS3" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    <img align="center" alt="Jackson Douglas de Souza - bootstrap" height="35" width="45" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg">
   <img align="center" alt="Jackson Douglas de Souza - git" height="35" width="45" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
   <img align="center" alt="Jackson Douglas de Souza - github" height="35" width="45" src="https://img.icons8.com/color/48/000000/github-2.png">
   <img align="center" alt="Jackson Douglas de Souza - vscode" height="35" width="45" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
