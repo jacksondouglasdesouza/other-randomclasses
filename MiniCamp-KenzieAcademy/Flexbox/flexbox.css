@@ -1,0 +1,27 @@
+body{
+    background-color: #f9f9f9;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(255, 255, 89);
+}
+
+.black-box{
+    background-color: #323232;
+}
+
+.green-box{
+    background-color: aquamarine;
+}
+
+.red-box{
+    background-color: rgb(236, 43, 43);
+}
+
