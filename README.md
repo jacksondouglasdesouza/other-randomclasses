@@ -2,6 +2,8 @@
 
 | Project | Deployment |
 | ------ | ------ |
+| 4 - Practical project - Freecodecamp - Big City | http://bit.ly/3lVmJ3Q |
+| 3 - Practical project - Kenzie Academy - Feed Twitter | http://bit.ly/3Zl7YpG |
 | 2 - Practical project - Kenzie Academy - A little about me | http://bit.ly/3YIKlao |
 | 1 - Practical project - The ducklings of mommy Floc | http://bit.ly/3ImuQPK |
  ## Meus contatos
@@ -19,8 +21,29 @@
  </div>
  
  #
+ 
+   ## Page Photo - Project 04
 
- ## Page Photo
+| Project | Deployment |
+| ------ | ------ |
+| 4 - Practical project - Freecodecamp - Big City | http://bit.ly/3lVmJ3Q |
+
+ <div>
+ <video controls autoplay src="https://user-images.githubusercontent.com/76602433/221320450-a30ef91f-61d5-43c2-91ee-4e7eaa51575d.mp4" height="auto" width="100%"></video>
+ </div><br />
+ 
+  ## Page Photo - Project 03
+
+| Project | Deployment |
+| ------ | ------ |
+| 3 - Practical project - Kenzie Academy - Feed Twitter | http://bit.ly/3Zl7YpG |
+
+ <div>
+  <img align="center" alt="Practical project - Kenzie Academy - Feed Twitter, projeto de Jackson douglas de souza" height="auto" width="100%"
+  src="https://user-images.githubusercontent.com/76602433/221016032-91f95dbf-0038-4ae1-a52d-9c77d161f9c8.png">
+ </div><br />
+ 
+ ## Page Photo - Project 02
 
 | Project | Deployment |
 | ------ | ------ |
@@ -32,7 +55,7 @@
  </div><br />
 
 
- ## Page Photo
+ ## Page Photo - Project 01
 
 
 | Project | Deployment |
