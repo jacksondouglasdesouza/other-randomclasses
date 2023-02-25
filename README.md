@@ -2,6 +2,7 @@
 
 | Project | Deployment |
 | ------ | ------ |
+| 5 - Practical project - Freecodecamp - Magazine | http://bit.ly/41t3q2o |
 | 4 - Practical project - Freecodecamp - Big City | http://bit.ly/3lVmJ3Q |
 | 3 - Practical project - Kenzie Academy - Feed Twitter | http://bit.ly/3Zl7YpG |
 | 2 - Practical project - Kenzie Academy - A little about me | http://bit.ly/3YIKlao |
@@ -21,6 +22,19 @@
  </div>
  
  #
+ 
+ ## Page Photo - Project 05
+
+| Project | Deployment |
+| ------ | ------ |
+| 5 - Practical project - Freecodecamp - Magazine | http://bit.ly/41t3q2o |
+
+ <div>
+  <img align="center" alt="Practical project - Freecodecamp - Magazine, projeto de Jackson douglas de souza" height="auto" width="100%"
+  src="https://user-images.githubusercontent.com/76602433/221376442-37ebcbe6-00cb-4463-974d-bfbaf0d9cc81.png">
+ </div><br />
+ 
+ 
  
    ## Page Photo - Project 04
 
