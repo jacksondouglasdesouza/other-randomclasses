@@ -2,6 +2,7 @@
 
 | Project | Deployment |
 | ------ | ------ |
+| 6 - Practical project - Freecodecamp - Blowing Music | http://bit.ly/3L5V7Uv |
 | 5 - Practical project - Freecodecamp - Magazine | http://bit.ly/41t3q2o |
 | 4 - Practical project - Freecodecamp - Big City | http://bit.ly/3lVmJ3Q |
 | 3 - Practical project - Kenzie Academy - Feed Twitter | http://bit.ly/3Zl7YpG |
@@ -22,6 +23,17 @@
  </div>
  
  #
+ 
+  ## Page Photo - Project 06
+
+| Project | Deployment |
+| ------ | ------ |
+| 6 - Practical project - Freecodecamp - Blowing Music | http://bit.ly/3L5V7Uv |
+
+ <div>
+  <img align="center" alt="Practical project - Freecodecamp - Blowing Music, projeto de Jackson douglas de souza" height="auto" width="100%"
+  src="https://user-images.githubusercontent.com/76602433/222302776-32cc1a19-918f-4904-aa09-a6de0b93d7bd.png">
+ </div><br />
  
  ## Page Photo - Project 05
 
