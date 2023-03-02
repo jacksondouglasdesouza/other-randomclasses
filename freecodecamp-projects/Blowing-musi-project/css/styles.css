@@ -96,6 +96,12 @@ header{
     padding: 3rem 0;
 }
 
+.section01__texts{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
 .section01__texts h1{
     font-size: 3rem;
     font-weight: 700;
@@ -113,9 +119,10 @@ header{
     text-align: center;
 }
 
+
 .section01__div__button{
-    margin-top: 3px;
-    padding: 19px 40px;
+    
+    padding: 18px 30px;
     background-color: var(--color-primary);
     text-align: center;
     border-radius: 10px;
@@ -129,12 +136,17 @@ header{
     background-color: var(--color-hover);
 }
 
+
+
 /* ***** STYLE FORM BOOTSTRAP  ***** */
 
 form{
     margin: 0 !important;
     padding: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr;
 }
+
 #inputPassword2{
     margin: 0 !important;
     padding: 18px 50px !important;
@@ -163,12 +175,12 @@ form{
     background-color: var(--color-hover) !important;
 }
 
-
-
 .section01__photo img{
     width: 100%;
     object-fit: cover;
 }
+
+
 
 
 /* ***** SECTION 002 ***** */
@@ -228,6 +240,8 @@ form{
     
 }
 
+
+
 .section03__product{
     width: 100%;
     height: 100%;
@@ -249,6 +263,8 @@ form{
     padding: 0;
 }
 
+
+
 .section03__product h3{
     font-size: 1.2rem;
     font-weight: 700;
@@ -267,6 +283,8 @@ form{
     line-height: 150%;
 }
 
+
+
 .section03__product__h4 h4{
     margin-top: 3rem !important;
     background-color: var(--color-primary);
@@ -281,4 +299,194 @@ form{
     text-align: center;
 }
 
+/* ***** FOOTER ***** */
 
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.footer__background{
+    background-color: #2F2F2F;
+    color: var(--color-white);
+}
+
+.footer__icons a img{
+    width: 36px;
+    height: 36px;
+    margin: 0.2rem;
+}
+
+.footer__copy a{
+    color: var(--color-primary);
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/** ***** MEDIA QUERY'S  ***** */
+
+
+@media(max-width:1220px){
+    .section03__products{
+        grid-template-columns: 1fr 1fr;
+    }
+    .section03__product img{
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
+
+    .section03__product p{
+        font-size: 1rem;
+    }
+    
+}
+
+/* ***** */
+
+@media(max-width: 1200px){
+    .section01__div{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .section01__texts{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .section01__div__button{
+        padding: 15px 160px;
+    }
+
+    form.row{
+        flex-wrap: nowrap !important;
+    }
+
+}
+
+/* ***** */
+
+@media(max-width:996px){
+
+    .header__principal{
+        flex-direction: column;
+    }
+
+    .header__nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section01__photo{
+        display: none;
+    }
+
+    .section01__div{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    .section01__div__button{
+        padding: 1rem 10rem;
+    }
+
+    .section02__contents{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .section02__iconCard{
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .section02__iconCard p{
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+}
+
+@media(max-width:430px){
+    .section01__texts{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        }
+    .section01__texts h1{
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: -0.01em;
+
+    }
+
+    .section01__texts p{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+
+    .section01__div__button{
+        padding: 1rem 7rem;
+    }
+
+    .row{
+        flex-direction: column !important;
+        align-content: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+#inputPassword2{
+    width: 100% !important;
+}
+
+#section01__div__btnEmail{
+    padding: 1rem 5rem !important;
+    margin-left: 0.5rem !important;
+
+}
+
+
+    .section03__products{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        gap: 1rem;
+    }
+}
